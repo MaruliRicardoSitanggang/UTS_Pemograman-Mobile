@@ -44,7 +44,7 @@ class QuizController extends ChangeNotifier {
 
   void start(String name) {
     final clean = name.trim();
-    if (clean.isEmpty || clean.length > 40)
+    if (clean.isEmpty || clean.characters.length > 40)
       throw ArgumentError('Nama harus 1–40 karakter.');
     _name = clean;
     _answers = List<int?>.filled(questions.length, null);

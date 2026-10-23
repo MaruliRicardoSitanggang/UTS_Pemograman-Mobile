@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="1600" height="1050" fill="#ececf5"/>
+<style>text{font-family:Arial,sans-serif;fill:#24243b}.muted{fill:#666680}.purple{fill:#6354d9}.white{fill:white}</style>
+<text x="48" y="60" font-size="34" font-weight="bold" class="">quizora / konsep antarmuka</text>
+<text x="48" y="92" font-size="16" font-weight="normal" class="muted">MOCKUP REFERENSI — bukan screenshot aplikasi yang telah dijalankan</text>
+<rect x="48" y="130" width="340" height="820" rx="38" fill="#202032" stroke="none"/>
+<rect x="55" y="137" width="326" height="806" rx="32" fill="#f7f7fc" stroke="none"/>
+<text x="73" y="176" font-size="12" font-weight="bold" class="">9:41</text>
+<text x="321" y="176" font-size="12" font-weight="normal" class="">100%</text>
+<rect x="181" y="145" width="74" height="9" rx="5" fill="#202032" stroke="none"/>
+<text x="74" y="221" font-size="20" font-weight="bold" class="">quizora</text>
+<text x="338" y="221" font-size="20" font-weight="normal" class="">☾</text>
+<text x="75" y="256" font-size="11" font-weight="bold" class="purple">BELAJAR · COBA · BERTUMBUH</text>
+<text x="75" y="300" font-size="32" font-weight="bold" class="">Satu kuis.</text>
+<text x="75" y="338" font-size="20" font-weight="bold" class="">Selangkah lebih tahu.</text>
+<text x="75" y="375" font-size="15" font-weight="normal" class="muted">10 pertanyaan untuk menguji</text>
+<text x="75" y="399" font-size="15" font-weight="normal" class="muted">dasar Flutter-mu.</text>
+<rect x="166" y="426" width="104" height="104" rx="29" fill="#6354d9" stroke="none"/>
+<text x="218" y="499" text-anchor="middle" font-size="70" font-weight="bold" class="white">Q</text>
+<rect x="75" y="556" width="286" height="301" rx="22" fill="white" stroke="none"/>
+<text x="93" y="594" font-size="23" font-weight="bold" class="">Siap mulai?</text>
+<text x="93" y="622" font-size="14" font-weight="normal" class="muted">Masukkan nama pengguna.</text>
+<rect x="93" y="646" width="250" height="57" rx="14" fill="#f7f7fc" stroke="#d6d4e4"/>
+<text x="109" y="681" font-size="17" font-weight="normal" class="">Maruli</text>
+<rect x="78" y="725" width="279" height="50" rx="16" fill="#6354d9" stroke="none"/>
+<text x="217.5" y="756" text-anchor="middle" font-size="15" font-weight="bold" class="white">Mulai kuis</text>
+<text x="93" y="812" font-size="12" font-weight="normal" class="muted">10 soal • Offline • Tanpa timer</text>
+<text x="77" y="985" font-size="14" font-weight="bold" class="muted">01 / BERANDA</text>
+<rect x="436" y="130" width="340" height="820" rx="38" fill="#202032" stroke="none"/>
+<rect x="443" y="137" width="326" height="806" rx="32" fill="#f7f7fc" stroke="none"/>
+<text x="461" y="176" font-size="12" font-weight="bold" class="">9:41</text>
+<text x="709" y="176" font-size="12" font-weight="normal" class="">100%</text>
+<rect x="569" y="145" width="74" height="9" rx="5" fill="#202032" stroke="none"/>
+<text x="462" y="221" font-size="20" font-weight="bold" class="">Kuis Flutter</text>
+<text x="726" y="221" font-size="20" font-weight="normal" class="">☾</text>
+<text x="463" y="256" font-size="20" font-weight="bold" class="">Halo, Maruli</text>
+<text x="463" y="285" font-size="14" font-weight="normal" class="muted">3 dari 10 soal terjawab</text>
+<rect x="463" y="304" width="285" height="8" rx="4" fill="#e5e0ff" stroke="none"/>
+<rect x="463" y="304" width="86" height="8" rx="4" fill="#6354d9" stroke="none"/>
+<text x="463" y="359" font-size="12" font-weight="bold" class="purple">SOAL 3 / 10 · WIDGET</text>
+<text x="463" y="399" font-size="18" font-weight="bold" class="">Metode untuk memberi</text>
+<text x="463" y="427" font-size="18" font-weight="bold" class="">tahu Flutter bahwa state</text>
+<text x="463" y="455" font-size="18" font-weight="bold" class="">lokal berubah adalah …</text>
+<rect x="463" y="493" width="285" height="52" rx="15" fill="#e5e0ff" stroke="#6354d9"/>
+<text x="480" y="526" font-size="16" font-weight="normal" class="">A   setState()</text>
+<rect x="463" y="556" width="285" height="52" rx="15" fill="white" stroke="#dedce9"/>
+<text x="480" y="589" font-size="16" font-weight="normal" class="">B   runApp()</text>
+<rect x="463" y="619" width="285" height="52" rx="15" fill="white" stroke="#dedce9"/>
+<text x="480" y="652" font-size="16" font-weight="normal" class="">C   dispose()</text>
+<rect x="463" y="682" width="285" height="52" rx="15" fill="white" stroke="#dedce9"/>
+<text x="480" y="715" font-size="16" font-weight="normal" class="">D   buildApp()</text>
+<text x="463" y="781" font-size="15" font-weight="bold" class="purple">1 ✓     2 ✓     3 ✓     4     5</text>
+<text x="463" y="812" font-size="15" font-weight="normal" class="muted">6        7        8        9     10</text>
+<rect x="463" y="857" width="279" height="50" rx="16" fill="#6354d9" stroke="none"/>
+<text x="602.5" y="888" text-anchor="middle" font-size="15" font-weight="bold" class="white">Berikutnya →</text>
+<text x="465" y="985" font-size="14" font-weight="bold" class="muted">02 / KUIS</text>
+<rect x="824" y="130" width="340" height="820" rx="38" fill="#202032" stroke="none"/>
+<rect x="831" y="137" width="326" height="806" rx="32" fill="#f7f7fc" stroke="none"/>
+<text x="849" y="176" font-size="12" font-weight="bold" class="">9:41</text>
+<text x="1097" y="176" font-size="12" font-weight="normal" class="">100%</text>
+<rect x="957" y="145" width="74" height="9" rx="5" fill="#202032" stroke="none"/>
+<text x="850" y="221" font-size="20" font-weight="bold" class="">Hasil kuis</text>
+<text x="1114" y="221" font-size="20" font-weight="normal" class="">☾</text>
+<rect x="851" y="264" width="285" height="580" rx="24" fill="white" stroke="none"/>
+<text x="994" y="356" text-anchor="middle" font-size="75" font-weight="bold" class="purple">★</text>
+<text x="881" y="415" font-size="19" font-weight="bold" class="">Kuis selesai, Maruli!</text>
+<text x="889" y="449" font-size="14" font-weight="normal" class="muted">Terus latih pemahamanmu.</text>
+<text x="994" y="548" text-anchor="middle" font-size="88" font-weight="bold" class="purple">80</text>
+<text x="948" y="583" font-size="15" font-weight="normal" class="muted">dari 100 poin</text>
+<text x="904" y="638" font-size="17" font-weight="bold" class="">8 benar         2 salah</text>
+<rect x="854" y="677" width="279" height="50" rx="16" fill="#6354d9" stroke="none"/>
+<text x="993.5" y="708" text-anchor="middle" font-size="15" font-weight="bold" class="white">Lihat pembahasan</text>
+<rect x="854" y="745" width="279" height="50" rx="16" fill="#fff" stroke="#c8c5db"/>
+<text x="993.5" y="776" text-anchor="middle" font-size="15" font-weight="bold" class="purple">Coba lagi</text>
+<text x="922" y="894" font-size="15" font-weight="bold" class="purple">Kembali ke beranda</text>
+<text x="853" y="985" font-size="14" font-weight="bold" class="muted">03 / HASIL</text>
+<rect x="1212" y="130" width="340" height="820" rx="38" fill="#202032" stroke="none"/>
+<rect x="1219" y="137" width="326" height="806" rx="32" fill="#f7f7fc" stroke="none"/>
+<text x="1237" y="176" font-size="12" font-weight="bold" class="">9:41</text>
+<text x="1485" y="176" font-size="12" font-weight="normal" class="">100%</text>
+<rect x="1345" y="145" width="74" height="9" rx="5" fill="#202032" stroke="none"/>
+<text x="1238" y="221" font-size="20" font-weight="bold" class="">Pembahasan</text>
+<text x="1502" y="221" font-size="20" font-weight="normal" class="">☾</text>
+<text x="1239" y="256" font-size="24" font-weight="bold" class="">Belajar dari setiap</text>
+<text x="1239" y="288" font-size="24" font-weight="bold" class="">jawaban</text>
+<text x="1239" y="322" font-size="14" font-weight="normal" class="muted">Maruli • 8/10 jawaban benar</text>
+<rect x="1239" y="356" width="285" height="241" rx="22" fill="white" stroke="none"/>
+<text x="1257" y="391" font-size="17" font-weight="bold" class="purple">Soal 1 · Benar</text>
+<text x="1257" y="430" font-size="13" font-weight="normal" class="">Bahasa pemrograman utama</text>
+<text x="1257" y="457" font-size="13" font-weight="normal" class="">yang digunakan Flutter …</text>
+<text x="1257" y="484" font-size="13" font-weight="normal" class="">Jawabanmu: Dart</text>
+<text x="1257" y="511" font-size="13" font-weight="bold" class="">Jawaban benar: Dart</text>
+<text x="1257" y="538" font-size="13" font-weight="normal" class="">Flutter menggunakan Dart untuk</text>
+<text x="1257" y="565" font-size="13" font-weight="normal" class="">antarmuka dan logika aplikasi.</text>
+<rect x="1239" y="622" width="285" height="241" rx="22" fill="white" stroke="none"/>
+<text x="1257" y="657" font-size="17" font-weight="bold" class="purple">Soal 2 · Benar</text>
+<text x="1257" y="696" font-size="13" font-weight="normal" class="">Widget untuk tampilan tanpa</text>
+<text x="1257" y="723" font-size="13" font-weight="normal" class="">state yang berubah …</text>
+<text x="1257" y="750" font-size="13" font-weight="normal" class="">Jawabanmu: StatelessWidget</text>
+<text x="1257" y="777" font-size="13" font-weight="bold" class="">Jawaban benar: StatelessWidget</text>
+<text x="1257" y="804" font-size="13" font-weight="normal" class="">State lokal tidak disimpan di</text>
+<text x="1257" y="831" font-size="13" font-weight="normal" class="">dalam StatelessWidget.</text>
+<text x="1241" y="985" font-size="14" font-weight="bold" class="muted">04 / PEMBAHASAN</text>
+<text x="48" y="1028" font-size="14" font-weight="normal" class="muted">Desain implementasi memakai Outfit, tema terang/gelap dan layout responsif. Data hasil pada mockup merupakan contoh.</text>
+</svg>
