@@ -6,8 +6,9 @@ class StatChip extends StatelessWidget {
   final String text;
   @override
   Widget build(BuildContext context) => Chip(
-    avatar: Icon(icon, size: 18), label: Text(text),
-    side: BorderSide.none,
-    backgroundColor: Theme.of(context).colorScheme.secondaryContainer,
-  );
+        avatar: Icon(icon, size: 18),
+        label: Text(text),
+        side: BorderSide.none,
+        backgroundColor: Theme.of(context).colorScheme.secondaryContainer,
+      );
 }

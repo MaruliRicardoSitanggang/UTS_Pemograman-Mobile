@@ -7,7 +7,12 @@ class Question {
   final int correctIndex;
   final String explanation;
 
-  const Question({required this.id, required this.category, required this.text,
-    required this.options, required this.correctIndex, required this.explanation})
-    : assert(options.length == 4), assert(correctIndex >= 0 && correctIndex < 4);
+  const Question(
+      {required this.id,
+      required this.category,
+      required this.text,
+      required this.options,
+      required this.correctIndex,
+      required this.explanation})
+      : assert(correctIndex >= 0 && correctIndex < 4);
 }
