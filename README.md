@@ -236,7 +236,7 @@ Penyusunan kode dan dokumentasi dibantu ChatGPT. Pahami dan sesuaikan implementa
 | Penjelasan kode & presentasi | [Panduan presentasi](docs/PRESENTASI_DAN_KODE.md) |
 | Checklist pengumpulan | [Checklist UTS](docs/CHECKLIST_PENGUMPULAN.md) |
 | Mockup desain | [Mockup referensi](docs/mockup.svg) |
-| Video presentasi | Belum ditambahkan; isi tautan Google Drive setelah video tersedia |
+| Video presentasi | (https://drive.google.com/drive/folders/1mnxiZ0FEfiI_8prJP_7sckwkHBYWbRW1) |
 
 ---
 
