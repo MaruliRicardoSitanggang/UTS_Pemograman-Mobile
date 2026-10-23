@@ -5,7 +5,7 @@
 1. Pasang Android Studio, Flutter SDK dan plugin **Flutter**. Plugin Dart biasanya ikut diminta saat memasang Flutter.
 2. Atur path Flutter SDK pada Settings > Languages & Frameworks > Flutter jika belum terdeteksi.
 3. Dari Tools > SDK Manager, sediakan Android SDK yang diminta Flutter beserta Android SDK Command-line Tools dan Build-Tools.
-4. Gunakan JDK 17 yang kompatibel untuk Gradle: Settings > Build, Execution, Deployment > Build Tools > Gradle > Gradle JDK. Template proyek memakai AGP 8.11.1, Gradle 8.14, Kotlin 2.2.20 dan Java target 17, mengacu baseline Flutter 3.38.5.
+4. Gunakan JDK yang kompatibel untuk Gradle: Settings > Build, Execution, Deployment > Build Tools > Gradle > Gradle JDK. Proyek memakai AGP 8.11.1, Gradle 9.3.1, Kotlin 2.2.20 dan Java target 17. Build lokal sudah berhasil dengan Flutter 3.47.2 dan JDK 25 bawaan Android Studio.
 5. Periksa toolchain:
 
 ```bash
@@ -29,7 +29,7 @@ flutter pub get
 
 Folder `android` adalah runner native. Untuk mengerjakan kode Flutter, buka root quizora, bukan hanya folder android.
 
-`local.properties`, `.dart_tool`, `build` dan `pubspec.lock` akan dibuat oleh tooling lokal. Tidak ada path SDK komputer penyusun yang harus disalin ke komputer Anda.
+`local.properties`, `.dart_tool` dan `build` dibuat oleh tooling lokal. `pubspec.lock` sudah disertakan di repository untuk mencatat versi dependency. Tidak ada path SDK komputer penyusun yang harus disalin ke komputer Anda.
 
 ## 3. Jalankan di emulator
 
@@ -85,7 +85,7 @@ flutter analyze
 flutter test
 ```
 
-Test mencakup state, skor, perubahan jawaban, reset, navigasi, perubahan ukuran layar dan tema. Status penyusunan: analyzer offline lulus; test runtime belum dijalankan.
+Test mencakup state, skor, perubahan jawaban, reset, navigasi, perubahan ukuran layar dan tema. Verifikasi 23 Oktober 2026: `flutter analyze` lulus dan seluruh 4 test lulus. Dokumentasi tampilan hasil eksekusi tersedia di [galeri screenshot](screenshots/README.md).
 
 Untuk membuat APK debug yang dapat dipasang untuk demonstrasi:
 
@@ -93,7 +93,7 @@ Untuk membuat APK debug yang dapat dipasang untuk demonstrasi:
 flutter build apk --debug
 ```
 
-Hasil normal berada di `build/app/outputs/flutter-apk/app-debug.apk`. APK belum disertakan dalam ZIP. Release signing memakai debug config pada template ini untuk tugas/demonstrasi; proyek tidak dikonfigurasi untuk distribusi Play Store.
+Hasil berada di `build/app/outputs/flutter-apk/app-debug.apk`. Build debug telah berhasil diverifikasi; APK merupakan hasil build lokal dan diabaikan oleh Git. Release signing memakai debug config pada template ini untuk tugas/demonstrasi; proyek tidak dikonfigurasi untuk distribusi Play Store.
 
 ## 7. Jika ada kendala
 
@@ -102,7 +102,8 @@ Hasil normal berada di `build/app/outputs/flutter-apk/app-debug.apk`. APK belum 
 | `flutter` tidak dikenali | Tambahkan folder `flutter/bin` pada PATH lalu buka ulang terminal/IDE |
 | Tidak muncul perangkat | Nyalakan emulator dari Device Manager dan cek `flutter devices` |
 | Font/gambar tidak terbaca | Pastikan folder assets ikut diekstrak; jalankan `flutter pub get` dan restart aplikasi |
-| Error Java/Gradle | Pastikan JDK 17, cek versi Flutter, lalu sesuaikan toolchain dengan baseline di README |
+| Error Java/Gradle | Periksa JDK melalui `flutter doctor -v` dan konfigurasi Gradle JDK di Android Studio |
+| `Unsupported class file major version 69` | Pastikan Gradle wrapper memakai versi 9.3.1 yang sudah disertakan untuk JDK 25, lalu muat ulang proyek/Gradle Sync |
 | SDK/NDK belum terpasang | Pasang versi yang disebut pesan build melalui SDK Manager |
 | Download Gradle gagal | Periksa koneksi lalu jalankan ulang; unduhan pertama dapat lama |
 | State hilang setelah hot restart | Ini sesuai desain: data berada dalam memori, bukan penyimpanan permanen |
