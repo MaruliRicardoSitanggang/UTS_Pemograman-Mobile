@@ -58,7 +58,7 @@ Layout memakai `LayoutBuilder`, ukuran relatif, pembatas lebar maksimum dan scro
 | --- | --- |
 | StatelessWidget dan StatefulWidget | `AnswerOption`/`QuizScreen`, `HomeScreen`/`QuizoraApp` |
 | Minimal dua halaman dan navigasi | Empat route: `/`, `/quiz`, `/result`, `/review` |
-| Widget reusable dalam file terpisah | Tujuh komponen dalam `lib/widgets` |
+| Widget reusable dalam file terpisah | Enam komponen dalam `lib/widgets` |
 | Aset gambar/ikon | Logo PNG lokal dan Material Icons |
 | Font kustom | Tiga bobot Outfit pada `assets/fonts` |
 | Ukuran UI dinamis | `ResponsivePage`, layout satu/dua kolom, Wrap dan scroll |
