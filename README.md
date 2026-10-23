@@ -7,8 +7,8 @@ Aplikasi kuis pilihan ganda bertema dasar Flutter untuk UTS Lab Pemrograman Mobi
 | Data | Isi |
 | --- | --- |
 | Nama | Maruli Ricardo Sitanggang (sesuaikan bila berbeda) |
-| NIM | **ISI NIM ANDA** |
-| Lab | **ISI PM 1 ATAU PM 3 SESUAI KELAS ANDA** |
+| NIM | **241401005* |
+| Lab | ** PM 3 ** |
 
 ## Deskripsi dan fitur
 
