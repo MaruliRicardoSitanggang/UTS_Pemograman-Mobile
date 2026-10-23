@@ -22,7 +22,7 @@
 
 ## Tentang Aplikasi
 
-Quizora dibuat untuk UTS Lab Pemrograman Mobile. Pengguna memasukkan nama, menjawab sepuluh pertanyaan pilihan ganda tentang dasar Flutter, lalu melihat skor dan mempelajari pembahasan setiap soal.
+Quizora adalah aplikasi kuis sederhana. Pengguna memasukkan nama, menjawab sepuluh pertanyaan pilihan ganda tentang dasar Flutter, lalu melihat skor dan mempelajari pembahasan setiap soal.
 
 Materi kuis meliputi Dart, widget, navigasi, layout, aset, state management, responsivitas, siklus hidup, dan tema. Data soal, font, serta logo disimpan secara lokal sehingga aplikasi Android dapat digunakan tanpa koneksi setelah terpasang.
 
