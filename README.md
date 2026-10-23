@@ -228,15 +228,7 @@ Penyusunan kode dan dokumentasi dibantu ChatGPT. Pahami dan sesuaikan implementa
 
 | Dokumentasi | Tautan |
 | --- | --- |
-| Repository GitHub | [MaruliRicardoSitanggang/UTS_Pemograman-Mobile](https://github.com/MaruliRicardoSitanggang/UTS_Pemograman-Mobile) |
-| Riwayat commit | [Commit pada branch main](https://github.com/MaruliRicardoSitanggang/UTS_Pemograman-Mobile/commits/main) |
-| Dokumentasi screenshot | [Daftar gambar dan skenario](docs/screenshots/README.md) |
-| Panduan Android Studio | [Cara membuka, menjalankan, dan menguji](docs/PANDUAN_ANDROID_STUDIO.md) |
-| Struktur folder lengkap | [Struktur proyek](docs/STRUKTUR_FOLDER.md) |
-| Penjelasan kode & presentasi | [Panduan presentasi](docs/PRESENTASI_DAN_KODE.md) |
-| Checklist pengumpulan | [Checklist UTS](docs/CHECKLIST_PENGUMPULAN.md) |
-| Mockup desain | [Mockup referensi](docs/mockup.svg) |
-| Video presentasi | (https://drive.google.com/drive/folders/1mnxiZ0FEfiI_8prJP_7sckwkHBYWbRW1) |
+| Video presentasi | https://drive.google.com/drive/folders/1mnxiZ0FEfiI_8prJP_7sckwkHBYWbRW1 |
 
 ---
 
